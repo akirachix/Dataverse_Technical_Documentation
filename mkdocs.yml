@@ -1,0 +1,66 @@
+site_name: Dataverse Documentation
+site_url: https://akirachix.github.io/Dataverse_Technical_Documentation/
+repo_url: https://github.com/akirachix/Dataverse_Technical_Documentation
+repo_name: GitHub
+
+theme:
+  name: material
+  logo: assets/brand/mykira_logoo-removebg-preview.png
+  favicon: assets/brand/mykira_logoo-removebg-preview.png
+  palette:
+    - scheme: default
+      primary: white
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - How It Works: how-it-works.md
+  - Features: features.md
+  - Frontend Mobile: frontend-mobile.md
+  - Frontend Web: frontend-web.md
+  - Backend: backend.md
+  - AI: ai.md
+  - Q/A Process: qa-process.md
+  - Code Standards: code-standards.md
+  - Brand Guideline: brand-guideline.md
