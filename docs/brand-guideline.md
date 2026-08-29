@@ -3,7 +3,7 @@ A simple guide to our brand's look and voice. It covers our official logo, core 
 
 **Logo**   
 
-![MyKira Logo](assets/brand/mykira_logoo-removebg-preview.png)
+![MyKira Logo](./assets/brand/mykira_logoo-removebg-preview.png)
 
 
 
