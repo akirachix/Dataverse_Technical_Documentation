@@ -2,7 +2,9 @@
 A simple guide to our brand's look and voice. It covers our official logo, core colors, text fonts, and graphic icons. Use these rules to keep our messaging clear, consistent, and recognizable across all designs, marketing, and products.
 
 **Logo**   
-![MyKira Logo](../assets/brand/mykira_logoo-removebg-preview.png)
+
+![MyKira Logo](assets/brand/mykira_logoo-removebg-preview.png)
+
 
 
 **Official colours**

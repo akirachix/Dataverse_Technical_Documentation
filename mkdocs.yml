@@ -2,23 +2,26 @@ site_name: Dataverse Documentation
 site_url: https://akirachix.github.io/Dataverse_Technical_Documentation/
 repo_url: https://github.com/akirachix/Dataverse_Technical_Documentation
 repo_name: GitHub
+copyright: "Dataverse, Akirachix, &copy; 2026"
 
 theme:
   name: material
   logo: assets/brand/mykira_logoo-removebg-preview.png
   favicon: assets/brand/mykira_logoo-removebg-preview.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - scheme: default
       primary: white
       accent: custom
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
       primary: black
       accent: custom
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-4
         name: Switch to light mode
   font:
     text: Roboto
@@ -31,6 +34,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
+extra:
+  generator: false
 
 extra_css:
   - stylesheets/extra.css
